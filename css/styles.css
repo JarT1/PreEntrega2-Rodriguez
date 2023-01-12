@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+body{
+    background-color: #EBE9E9;
+}
+
+.navbar-toggler{
+    color: #393E41 ;
+    transition: all 400ms ease;
+}
+.title{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.carousel-item{
+    transition: all 700ms ease;
+}
+
+.accordion-collapse{
+    transition: all 500ms ease;
+    transform: translateY(0%);
+}
+                    /*  */
+.offcanvas{
+    transition: all 700ms ease;
+    background-color: #393E41;
+    transform:translateX(-100%);
+}
+
+.offcanvas-body a{
+    text-decoration: none;
+    color: #F3F3F3 ;
+}
+.offcanvas-body a:hover{
+    color: #686B6C;
+}
+.offcanvas-title{
+    color: #efefef;
+}
+                    /* FORMULARIO INPUT EN OFFCANVAS */
+.formulario{
+    color: #efefef;
+    font-size: 10px;
+    text-align: center;
+    background-color: #686B6C;
+    border-radius: 10px;
+}
+
+.formulario form{
+    width: 70%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.)
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.formulario form textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+                    /* BOTONES */
+#boton{
+    background-color: #393E41;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    color: #686B6C;
+}
+.btn{
+    transition: all 500ms ease;
+    background-color: #393E41;
+}
+.btn:hover{
+    background-color: #686B6C;
+    
+}
+
+.accordion{
+    padding: 20px;
+}
+                    /* FOOTER */
+.pie-pagina{
+    width: 100%;
+    background-color: #393E41;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio{
+    border-radius: 40px;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 35px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #393E41;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #000;
+}
+.pie-pagina .grupo-2{
+    background-color: #393E41;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
